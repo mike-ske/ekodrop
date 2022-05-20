@@ -9644,6 +9644,26 @@ video {
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
 }
 
+.bg-hero-image {
+  background-image: url('/image/hero.png');
+}
+
+.bg-footer-texture {
+  background-image: url('/image/footer-texture.png');
+}
+
+.bg-dispatch-image {
+  background-image: url('/image/icoimage/18.png');
+}
+
+.bg-phone-image {
+  background-image: url('/image/icoimage/16.png');
+}
+
+.bg-service-image {
+  background-image: url('/image/serviceimage/1.png');
+}
+
 .from-transparent {
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -19914,6 +19934,14 @@ video {
 
 .text-text-tiny {
   font-size: 10;
+}
+
+.text-text-1-lg {
+  font-size: 18;
+}
+
+.text-text-xlg {
+  font-size: 65;
 }
 
 .leading-3 {
@@ -40354,6 +40382,26 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
+  .sm\:bg-hero-image {
+    background-image: url('/image/hero.png');
+  }
+
+  .sm\:bg-footer-texture {
+    background-image: url('/image/footer-texture.png');
+  }
+
+  .sm\:bg-dispatch-image {
+    background-image: url('/image/icoimage/18.png');
+  }
+
+  .sm\:bg-phone-image {
+    background-image: url('/image/icoimage/16.png');
+  }
+
+  .sm\:bg-service-image {
+    background-image: url('/image/serviceimage/1.png');
+  }
+
   .sm\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -46568,6 +46616,14 @@ video {
 
   .sm\:text-text-tiny {
     font-size: 10;
+  }
+
+  .sm\:text-text-1-lg {
+    font-size: 18;
+  }
+
+  .sm\:text-text-xlg {
+    font-size: 65;
   }
 
   .sm\:leading-3 {
@@ -53147,6 +53203,26 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
+  .md\:bg-hero-image {
+    background-image: url('/image/hero.png');
+  }
+
+  .md\:bg-footer-texture {
+    background-image: url('/image/footer-texture.png');
+  }
+
+  .md\:bg-dispatch-image {
+    background-image: url('/image/icoimage/18.png');
+  }
+
+  .md\:bg-phone-image {
+    background-image: url('/image/icoimage/16.png');
+  }
+
+  .md\:bg-service-image {
+    background-image: url('/image/serviceimage/1.png');
+  }
+
   .md\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -59361,6 +59437,14 @@ video {
 
   .md\:text-text-tiny {
     font-size: 10;
+  }
+
+  .md\:text-text-1-lg {
+    font-size: 18;
+  }
+
+  .md\:text-text-xlg {
+    font-size: 65;
   }
 
   .md\:leading-3 {
@@ -65940,6 +66024,26 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
+  .lg\:bg-hero-image {
+    background-image: url('/image/hero.png');
+  }
+
+  .lg\:bg-footer-texture {
+    background-image: url('/image/footer-texture.png');
+  }
+
+  .lg\:bg-dispatch-image {
+    background-image: url('/image/icoimage/18.png');
+  }
+
+  .lg\:bg-phone-image {
+    background-image: url('/image/icoimage/16.png');
+  }
+
+  .lg\:bg-service-image {
+    background-image: url('/image/serviceimage/1.png');
+  }
+
   .lg\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -72154,6 +72258,14 @@ video {
 
   .lg\:text-text-tiny {
     font-size: 10;
+  }
+
+  .lg\:text-text-1-lg {
+    font-size: 18;
+  }
+
+  .lg\:text-text-xlg {
+    font-size: 65;
   }
 
   .lg\:leading-3 {
@@ -78733,6 +78845,26 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
+  .xl\:bg-hero-image {
+    background-image: url('/image/hero.png');
+  }
+
+  .xl\:bg-footer-texture {
+    background-image: url('/image/footer-texture.png');
+  }
+
+  .xl\:bg-dispatch-image {
+    background-image: url('/image/icoimage/18.png');
+  }
+
+  .xl\:bg-phone-image {
+    background-image: url('/image/icoimage/16.png');
+  }
+
+  .xl\:bg-service-image {
+    background-image: url('/image/serviceimage/1.png');
+  }
+
   .xl\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -84947,6 +85079,14 @@ video {
 
   .xl\:text-text-tiny {
     font-size: 10;
+  }
+
+  .xl\:text-text-1-lg {
+    font-size: 18;
+  }
+
+  .xl\:text-text-xlg {
+    font-size: 65;
   }
 
   .xl\:leading-3 {

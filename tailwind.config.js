@@ -173,8 +173,18 @@ module.exports = {
                 sans: ['Inter', ...defaultTheme.fontFamily.sans],
             },
             fontSize: {
-                'text-tiny': '10'
-            }
+                'text-tiny': '10',
+                'text-1-lg': '18',
+                'text-xlg': '65',
+            },
+            backgroundImage: {
+                'hero-image': "url('/image/hero.png')",
+                'footer-texture': "url('/image/footer-texture.png')",
+                'dispatch-image': "url('/image/icoimage/18.png')",
+                'phone-image': "url('/image/icoimage/16.png')",
+                'service-image': "url('/image/serviceimage/1.png')",
+            },
+
         },
     },
     variants: {
