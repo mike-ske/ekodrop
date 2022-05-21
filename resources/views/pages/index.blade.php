@@ -5,7 +5,7 @@
         <div style="margin-top: 45px;margin-bottom: 100px" class="mt-28  sm:flex items-center justify-between gap-8 w-full h-auto mx-auto">
             <div class="w-full flex-1 mt-20 py-4">
                 <div class="w-full">
-                    <h1 class="text-5xl text-gray-600 font-semibold">
+                    <h1 class="text-4xl md:text-5xl text-gray-600 font-semibold">
                         Swift, reliable, <br>
                         seamless delivery service
                     </h1>
@@ -29,7 +29,7 @@
     <main class="w-full px-8 sm:px-20 ">
         <div style="margin-top: 45px;margin-bottom: 100px" class="mt-28  sm:flex items-center justify-between gap-8 w-full h-auto mx-auto">
             <div class="w-full flex-1 mt-20 py-4 text-center">
-                <h1 class="font-bold text-gray-800 text-4xl mb-2">Topnotch logistics services</h1>
+                <h1 class="font-bold text-gray-800 text-2xl md:text-4xl mb-2">Topnotch logistics services</h1>
                 <h3 class="w-full text-gray-600 font-normal text-sm">Meeting all your logistics needs in no time!</h3>
             </div>
         </div>
@@ -134,7 +134,7 @@
 
     
     <main class="w-full">
-        <div style="margin-top: 45px;margin-bottom: 20px" class="mt-28 flex w-full h-auto mx-auto">
+        <div style="margin-top: 45px;margin-bottom: 20px" class="mt-28 sm:flex w-full h-auto mx-auto">
             <div class="w-full flex-1 p-8 " style="background: #21334F;">
                <div class="w-full py-10">
                    <h1 class="text-gray-100 text-4xl">
@@ -205,12 +205,12 @@
         <div class="bg-white flex w-full h-auto mx-auto ">
             <div class="w-full flex-1 p-8 ">
                <div class="w-full py-10">
-                   <h1 class="text-gray-800 text-4xl">
+                   <h1 class="text-gray-800 text-2xl sm:text-4xl">
                     Why should you use <br>  our services
                    </h1>
                </div>
 
-               <div class="flex gap-24">
+               <div class="sm:flex gap-24">
                     <div class="flex gap-6 items-center">
                         <div class=" w-auto flex">
                             <img src="{{ URL('image/ekoicon/11.png') }}" alt="">
@@ -222,19 +222,19 @@
                                 Have your goods delivered at budget friendly prices, get amazing discounts/offers 
                                 </p>
                             </div>
-                            <div class="text-gray-800 text-lg mt-16">
+                            <div class="text-gray-800 text-lg mt-8 sm:mt-16">
                                 <h1>Get a dispatch bike</h1>
                                 <p class="text-sm text-gray-600 text-left mt-2">
                                     Start up your own logistics service with us. Buy and pay later
                                 </p>
                             </div>
-                            <div class="text-gray-800 text-lg mt-16">
+                            <div class="text-gray-800 text-lg mt-8 sm:mt-16">
                                 <h1>Trusted logistics services</h1>
                                 <p class="text-sm text-gray-600 text-left mt-2">
                                     We deliver with no hassle, no worries, your  goods are in the best hands
                                 </p>
                             </div>
-                            <div class="text-gray-800 text-lg mt-16">
+                            <div class="text-gray-800 text-lg mt-8 sm:mt-16">
                                 <h1>Prompt service</h1>
                                 <p class="text-sm text-gray-600 text-left mt-2">
                                     Say goodbye to slow deliveries, we are always on time.
@@ -242,7 +242,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" w-auto flex">
+                    <div class=" w-auto flex sm:mt-0 mt-4">
                         <img src="{{ URL('image/icoimage/7.png') }}" alt="">
                     </div>
                </div>
@@ -251,7 +251,7 @@
     </main>
 
     <main class="w-full px-8 sm:px-20 bg-dispatch-image">
-        <div class=" flex w-full h-auto mx-auto mt-28">
+        <div class=" sm:flex w-full h-auto mx-auto mt-28">
             <div class="w-full flex-1 p-8">
                 <div class=" w-auto flex">
                     <img src="{{ URL('image/icoimage/14.png') }}" alt="">
@@ -259,7 +259,7 @@
             </div>
             <div class="w-full flex-1 p-8">
                 <div class="w-full py-10">
-                    <h1 class="text-blue-900 text-4xl font-bold">
+                    <h1 class="text-blue-900 text-2xl sm:text-4xl font-bold">
                         Own your own dispatch <br> bike with
                         <span class="bg-yellow-300 px-1">
                             CADNA 
@@ -276,7 +276,7 @@
     <main class="w-full px-8 sm:px-20 ">
         <div class="  w-full h-auto mx-auto mt-20">
             <div class="flex items-center w-full flex-1 p-8 text-center">
-                <h1 class="mx-auto text-gray-900 text-4xl font-bold">
+                <h1 class="mx-auto text-gray-900 text-2xl sm:text-4xl font-bold">
                     What customers say about Ekodrop
                 </h1>
             </div>
@@ -319,13 +319,13 @@
     <main class="w-full px-8 sm:px-20 ">
         <div class="  w-full h-auto mx-auto mt-20">
             <div class="flex items-center w-full flex-1 p-8 text-center">
-                <h1 class="mx-auto text-gray-900 text-4xl font-bold">
+                <h1 class="mx-auto text-gray-900 text-2xl sm:text-4xl font-bold">
                     Frequently Asked Questions
                 </h1>
             </div>
 
             <div class="w-full sm:w-2/3 flex-col gap-8 mx-auto">
-                <div class="p-6 flex-1 bg-gray-100 ">
+                <div class="p-3 smp:p-6 flex-1 bg-gray-100 ">
                     <div class="w-full flex items-center justify-between cursor-pointer">
                         <h1 class="text-gray-800 my-1 font-bold text-sm flex-1">What are your delivery rates ?</h1>
                         <div class="w-full flex flex-1 items-end justify-end">
@@ -337,7 +337,7 @@
                         The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
                     </p>
                 </div>
-                <div class="p-6 flex-1 mt-3 bg-gray-100 ">
+                <div class="p-3 smp:p-6 flex-1 mt-3 bg-gray-100 ">
                     <div class="w-full flex items-center justify-between cursor-pointer">
                         <h1 class="text-gray-800 my-1 font-bold text-sm flex-1">Do you deliver outside lagos?</h1>
                         <div class="w-full flex flex-1 items-end justify-end">
@@ -348,7 +348,7 @@
                         The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
                     </p> --}}
                 </div>
-                <div class="p-6 flex-1 mt-3 bg-gray-100 ">
+                <div class="p-3 smp:p-6 flex-1 mt-3 bg-gray-100 ">
                     <div class="w-full flex items-center justify-between cursor-pointer">
                         <h1 class="text-gray-800 my-1 font-bold text-sm flex-1">Do you deliver outside lagos?</h1>
                         <div class="w-full flex flex-1 items-end justify-end">
@@ -359,7 +359,7 @@
                         The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
                     </p> --}}
                 </div>
-                <div class="p-6 flex-1 mt-3 bg-gray-100 ">
+                <div class="p-3 smp:p-6 flex-1 mt-3 bg-gray-100 ">
                     <div class="w-full flex items-center justify-between cursor-pointer">
                         <h1 class="text-gray-800 my-1 font-bold text-sm flex-1">How long would it take to deliver my goods ?</h1>
                         <div class="w-full flex flex-1 items-end justify-end">
@@ -370,7 +370,7 @@
                         The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
                     </p> --}}
                 </div>
-                <div class="p-6 flex-1 mt-3 bg-gray-100 ">
+                <div class="p-3 smp:p-6 flex-1 mt-3 bg-gray-100 ">
                     <div class="w-full flex items-center justify-between cursor-pointer">
                         <h1 class="text-gray-800 my-1 font-bold text-sm flex-1">Can I track the delivery process? </h1>
                         <div class="w-full flex flex-1 items-end justify-end">
@@ -381,7 +381,7 @@
                         The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
                     </p> --}}
                 </div>
-                <div class="p-6 flex-1 mt-3 bg-gray-100 ">
+                <div class="p-3 smp:p-6 flex-1 mt-3 bg-gray-100 ">
                     <div class="w-full flex items-center justify-between cursor-pointer">
                         <h1 class="text-gray-800 my-1 font-bold text-sm flex-1">Do you do express deliveries?</h1>
                         <div class="w-full flex flex-1 items-end justify-end">
@@ -392,7 +392,7 @@
                         The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
                     </p> --}}
                 </div>
-                <div class="p-6 flex-1 mt-3 bg-gray-100 ">
+                <div class="p-3 smp:p-6 flex-1 mt-3 bg-gray-100 ">
                     <div class="w-full flex items-center justify-between cursor-pointer">
                         <h1 class="text-gray-800 my-1 font-bold text-sm flex-1">Are there discounts for bulk deliveries?</h1>
                         <div class="w-full flex flex-1 items-end justify-end">
@@ -403,7 +403,7 @@
                         The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
                     </p> --}}
                 </div>
-                <div class="p-6 flex-1 mt-3 bg-gray-100 ">
+                <div class="p-3 smp:p-6 flex-1 mt-3 bg-gray-100 ">
                     <div class="w-full flex items-center justify-between cursor-pointer">
                         <h1 class="text-gray-800 my-1 font-bold text-sm flex-1">Are there rewards for  customer referrals?</h1>
                         <div class="w-full flex flex-1 items-end justify-end">
@@ -414,7 +414,7 @@
                         The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
                     </p> --}}
                 </div>
-                <div class="p-6 flex-1 mt-3 bg-gray-100 ">
+                <div class="p-3 smp:p-6 flex-1 mt-3 bg-gray-100 ">
                     <div class="w-full flex items-center justify-between cursor-pointer">
                         <h1 class="text-gray-800 my-1 font-bold text-sm flex-1">Do you accept cash on delivery ?</h1>
                         <div class="w-full flex flex-1 items-end justify-end">
@@ -425,7 +425,7 @@
                         The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
                     </p> --}}
                 </div>
-                <div class="p-6 flex-1 mt-3 bg-gray-100 ">
+                <div class="p-3 flex-1 mt-3 bg-gray-100 ">
                     <div class="w-full flex items-center justify-between cursor-pointer">
                         <h1 class="text-gray-800 my-1 font-bold text-sm flex-1">Is it possible for riders to confirm payment of goods on delivery?</h1>
                         <div class="w-full flex flex-1 items-end justify-end">
@@ -441,13 +441,13 @@
     </main>
 
     <main class="w-full px-8 sm:px-20 ">
-        <div class="w-full h-auto mx-auto mt-20 mb-24 bg-phone-image bg-no-repeat">
+        <div style="background-position: top;background-size: cover;" class="sm:rounded-none rounded-md w-full h-auto mx-auto mt-20 mb-24 bg-phone-image bg-no-repeat">
             <div class="flex w-full  p-8 text-center">
-                <div class="w-full flex-1 text-left pl-8">
-                    <h3 class="mx-auto text-gray-900 text-3xl ">
+                <div class="w-full flex-1 text-left sm:pl-8">
+                    <h3 class="mx-auto text-gray-900 text-2xl sm:text-3xl ">
                         Our Mobile App
                     </h3>
-                    <h1 class="mx-auto mt-2 text-gray-900 text-6xl font-black">
+                    <h1 class="mx-auto mt-2 text-gray-900 text-3xl sm:text-6xl font-black">
                         Coming Soon
                     </h1>
                     <div class="w-full flex-1 mt-2">

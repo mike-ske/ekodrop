@@ -7,7 +7,7 @@
             <div class="sm:bg-service-image flex z-0 absolute left-0 items-center w-2/6" style="z-index:-1;max-height:200vh;height:200vh;"></div>
             <div class="w-1/2 flex max-h-screen items-start relative">
                 <div class="w-auto flex mx-auto mt-20">
-                    <h1 class="text-6xl font-bold"  style="color: #21334F;"> 
+                    <h1 class="text-3xl md:text-6xl font-bold"  style="color: #21334F;"> 
                         WHAT <br>
                         WE <br>
                         DO <br>
@@ -16,7 +16,7 @@
             </div>
             <div class="w-auto mt-20">
                 <div class="w-full mt-4 sm:flex gap-10">
-                    <div   class="flex-1 p-10 mb-10 bg-white text-left hover:shadow-2xl rounded-lg">
+                    <div class="flex-1 p-10 mb-10 bg-white text-left hover:shadow-2xl rounded-lg">
                         <div class="w-auto flex">
                             <img src="{{ URL('image/icoimage/2.png') }}" alt="">
                         </div>
@@ -27,7 +27,7 @@
                             <h3>Wherever you are in Lagos, We've got you covered.</h3>
                         </div>
                     </div>
-                    <div   class="flex-1 p-10 bg-white text-left  hover:shadow-2xl rounded-lg">
+                    <div class="flex-1 p-10 bg-white text-left  hover:shadow-2xl rounded-lg">
                         <div class="w-auto flex">
                             <img src="{{ URL('image/icoimage/1.png') }}" alt="">
                         </div>
@@ -97,7 +97,7 @@
 
 
     <main class="w-full px-8 sm:px-20 bg-dispatch-image">
-        <div class=" flex w-full h-auto mx-auto mt-28">
+        <div class=" sm:flex w-full h-auto mx-auto mt-28">
             <div class="w-full flex-1 p-8">
                 <div class=" w-auto flex">
                     <img src="{{ URL('image/icoimage/14.png') }}" alt="">
@@ -105,13 +105,13 @@
             </div>
             <div class="w-full flex-1 p-8">
                 <div class="w-full py-10">
-                    <h1 class="text-blue-900 text-4xl font-bold">
+                    <h1 class="text-blue-900 text-2xl md:text-4xl font-bold">
                         Own your own dispatch <br> bike with
                         <span class="bg-yellow-300 px-1">
                             CADNA 
                         </span>
                     </h1>
-                    <p class="text-lg text-gray-600 text-left mt-3">
+                    <p class="text-sm md:text-lg text-gray-600 text-left mt-3">
                         Get a dispatch bike at very affordable rates, pay in installments, <br> earn on the go.
                     </p>
                 </div>
@@ -122,7 +122,7 @@
     <main class="w-full px-8 sm:px-20 ">
         <div class="  w-full h-auto mx-auto mt-20">
             <div class="flex items-center w-full flex-1 p-8 text-center">
-                <h1 class="mx-auto text-gray-900 text-4xl font-bold">
+                <h1 class="mx-auto text-gray-900 text-2xl md:text-4xl font-bold">
                     What customers say about Ekodrop
                 </h1>
             </div>
@@ -162,13 +162,13 @@
     </main>
 
     <main class="w-full px-8 sm:px-20 ">
-        <div class="w-full h-auto mx-auto mt-20 mb-24 bg-phone-image bg-no-repeat">
+        <div style="background-position: top;background-size: cover;" class="w-full h-auto mx-auto mt-20 mb-24 bg-phone-image bg-no-repeat sm:rounded-none rounded-md">
             <div class="flex w-full  p-8 text-center">
-                <div class="w-full flex-1 text-left pl-8">
-                    <h3 class="mx-auto text-gray-900 text-3xl ">
+                <div class="w-full flex-1 text-left sm:pl-8">
+                    <h3 class="mx-auto text-gray-900 text-2xl sm:text-3xl ">
                         Our Mobile App
                     </h3>
-                    <h1 class="mx-auto mt-2 text-gray-900 text-6xl font-black">
+                    <h1 class="mx-auto mt-2 text-gray-900 text-3xl sm:text-6xl  font-black">
                         Coming Soon
                     </h1>
                     <div class="w-full flex-1 mt-2">

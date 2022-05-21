@@ -5,13 +5,13 @@
         <div style="margin-top: 45px;margin-bottom: 100px" class="mt-28  sm:flex items-center justify-between gap-8 w-full h-auto mx-auto">
             <div class="w-full flex-1 mt-20 py-4">
                 <div class="w-full">
-                    <h1 class="text-5xl text-gray-600 font-semibold">
+                    <h1 class="text-2xl md:text-5xl text-gray-600 font-semibold">
                         Your plug for quick and fast end-to
                         -end same-day delivery service 
                     </h1>
                 </div>
                <div class="w-full my-8">
-                    <h3 class="text-lg text-gray-700 font-normal">
+                    <h3 class="text-sm md:text-lg text-gray-700 font-normal">
                         We make it possible for merchants and customers to conclude same-day 
                         <br>buying and selling remotely.
                     </h3>
@@ -25,7 +25,7 @@
     </main>
 
     <main class="w-full flex px-8 sm:px-20 " style="background: #21334F;">
-        <div style="margin-top: 45px;margin-bottom: 100px" class="mt-28  sm:flex items-center justify-between gap-8 w-full h-auto mx-auto">
+        <div style="margin-top: 45px;margin-bottom: 100px" class="mt-28 flex items-center justify-between gap-8 w-full h-auto mx-auto">
             <div class="w-full flex-1 mt-20 py-4">
                 <div class="w-full">
                     <h1 class="text-lg text-yellow-300 font-semibold">
@@ -34,7 +34,7 @@
                     <div style="width: 39px;height: 4px;" class="mt-4 bg-yellow-300"></div>
                 </div>
                <div class="w-10/12 my-8 leading-9">
-                    <p class="text-lg text-gray-100 font-light" style="font-weight: 100">
+                    <p class="md:text-lg text-gray-100 font-light" style="font-weight: 100">
                         Ekodrop began operations in June 2021 with just two bikes and organically grew its fleet to twenty bikes within the space of nine months. We grew revenue at an expedited pace of over 85% by the 9th month of doing business. We got  registered in November 2020 and undertook a pilot phase for 6 months. Ekodrop Logistics officially opened its corporate operations in June 2021. It has extended its reach to food, laundry, and e-commerce. All of which are centered around its core business of logistics.
                         <br><br>
                         In recent times, we  have been taking up corporate clients coupled with the ever-growing individual customer base. This dovetailed with a need to grow our fleets to haulage vehicles. This expansion is projected to cover a vast category of consumers, customer and corporate partner’s needs, the growth will be facilitated by the launch and onboarding of our Website, Mobile Application and the offline customer base.
@@ -58,12 +58,12 @@
                         <div class=" w-auto">
                             <img src="{{ URL('image/aboutimage/3.png') }}" alt="">
                         </div>
-                        <h1 class="text-3xl font-semibold" style="color: #21334F;">
+                        <h1 class="md:text-3xl font-semibold" style="color: #21334F;">
                             Mission
                         </h1>
                     </div>
                    <div class="w-10/12 my-4 leading-9">
-                        <p class="text-lg  font-light" style="font-weight: 100;color: #21334F;">
+                        <p class="text-xs md:text-lg  font-light" style="font-weight: 100;color: #21334F;">
                             To simplify the art of moving goods from point A to point B effortlessly, at a remarkable turnaround time.
                         </p>
                    </div>
@@ -75,12 +75,12 @@
                         <div class="w-auto">
                             <img src="{{ URL('image/aboutimage/8.png') }}" alt="">
                         </div>
-                        <h1 class="text-3xl font-semibold" style="color: #21334F;">
+                        <h1 class="md:text-3xl font-semibold" style="color: #21334F;">
                             Vision
                         </h1>
                     </div>
                    <div class="w-10/12 my-4 leading-9">
-                        <p class="text-lg  font-light" style="font-weight: 100;color: #21334F;">
+                        <p class="text-xs md:text-lg  font-light" style="font-weight: 100;color: #21334F;">
                             To be one of the leading and foremost logistics firms on the global frontline. 
                         </p>
                    </div>
@@ -110,7 +110,7 @@
     <main class="w-full px-8 sm:px-20 ">
         <div class="  w-full h-auto mx-auto">
             <div class="flex items-start w-full flex-1 p-8 text-left">
-                <h1 class="text-4xl font-bold"  style="color: #21334F;"> 
+                <h1 class="text-2xl md:text-4xl font-bold"  style="color: #21334F;"> 
                     Meet the Team
                 </h1>
             </div>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ URL('css/app.css') }}">
     <link rel="icon" href="{{ URL('favicon.ico')  }}" type="image/png">
     <link rel="stylesheet" href="{{ asset('fonts/stylesheet.css') }}">
-    
+    <link rel="stylesheet" href="../node_modules/@splidejs/splide/dist/css/splide.min.css">
     <style>
         body{
             font-family: 'Product Sans';
