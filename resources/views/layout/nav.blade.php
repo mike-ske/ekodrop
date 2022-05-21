@@ -29,7 +29,7 @@
                     <a href="#" class="font-semibold text-sm  h-full w-full text-gray-800">Sign Up</a>
                 </div>
             </div>
-            <div class="w-auto sm:hidden flex">
+            <div id="menuicon1" class="w-auto sm:hidden flex">
                 <div class="w-full">
                     <div class="w-10 p-2 cursor-pointer">
                         <span class="bg-gray-800  h-1 flex rounded w-full"></span>
@@ -41,7 +41,7 @@
         </nav>
     </div>
     {{-- DROP DOWN DESKTOP MENU   --}}
-    <div id="submenu" style="border-radius: 50px;max-width:95%;box-shadow: 0px 0px 10px #ccc;top:10px" class="hidden w-full mx-auto bg-white shadow-sm fixed top-6 py-4 px-20">
+    <div id="submenu" style="z-index:1;border-radius: 50px;max-width:95%;box-shadow: 0px 0px 10px #ccc;top:10px" class="hidden w-full mx-auto bg-white shadow-sm fixed top-6 py-4 px-6">
         <nav  class="w-full flex justify-between items-center z-index  top-0  mx-auto">
             <a href="/" class="flex-1 w-auto" >
                 <img style="width: 120px;" class="w-2/5" src="{{ URL('image/logo.png') }}" alt="">
@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="w-auto sm:hidden flex">
-                <div class="w-full">
+                <div id="menuicon2" class="w-full">
                     <div class="w-10 p-2 cursor-pointer">
                         <span class="bg-gray-800  h-1 flex rounded w-full"></span>
                         <span class="bg-gray-800 mt-1 mb-1 h-1 flex rounded w-full"></span>
@@ -82,13 +82,13 @@
         </nav>
     </div>
     {{-- MOBILE MENU   --}}
-    <div class="w-full bg-white px-4 py-8 fixed top-0 wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s" >
+    <div id="dropmenu" style="top:0px" class="hidden sm:hidden w-full z-10 bg-white px-4 py-8 fixed top-0 wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s" >
         <nav class="w-full">
             <div class="flex items-center justify-between">
                 <a href="/" class="flex-1 w-auto" >
                     <img style="width: 120px;" class="w-auto" src="{{ URL('image/logo.png') }}" alt="">
                 </a>
-                <div class="flex-1 w-auto flex-end text-right flex items-end cursor-pointer" style="justify-content: end">
+                <div id="close" class="flex-1 w-auto flex-end text-right flex items-end cursor-pointer" style="justify-content: end">
                     <img class="w-auto" style="width: 16%" src="{{ URL('image/icoimage/Close.png') }}" alt="">
                 </div>
             </div>
