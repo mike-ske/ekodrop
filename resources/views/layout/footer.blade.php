@@ -7,12 +7,10 @@
 
 {{-- SLIDER COUROSEL --}}
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.2/dist/js/splide.min.js"></script>
-<script>
-    new Splide( '#splide1' ).mount();
-</script>
 
-<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-
+{{-- <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script> --}}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 <script src="{{ URL('mainjs/main.js') }}"></script>
 <script src="{{ asset('mainjs/app.js')  }}" ></script>
 <script src="{{ asset('mainjs/delete.js')  }}" ></script>

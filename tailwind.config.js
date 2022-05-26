@@ -163,6 +163,8 @@ module.exports = {
                 '800': '#99154b',
                 '900': '#751a3d',
             },
+            'eko-yellow': '#FFCC29',
+            'eko-blue': '#21334F',
         },
         extend: {
             maxHeight: {
@@ -183,6 +185,7 @@ module.exports = {
                 'dispatch-image': "url('/image/icoimage/18.png')",
                 'phone-image': "url('/image/icoimage/16.png')",
                 'service-image': "url('/image/serviceimage/1.png')",
+                'service-image2': "url('/image/serviceimage/6.png')",
             },
 
         },
