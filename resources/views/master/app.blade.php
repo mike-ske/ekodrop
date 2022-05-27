@@ -27,23 +27,23 @@
                     </div>
                     <div class="flex-1 w-auto flex justify-center sm:justify-end ">
                         <div class="flex gap-8 items-center">
-                            <a href="#">
+                            <a target="_blank" href="https://www.facebook.com/ekodroplogistics">
                                 <img src="{{ URL('image/icoimage/22.png') }}" alt="">
                             </a>
-                            <a href="#">
+                            <a target="_blank" href="https://www.linkedin.com/company/ekodroplogistics">
                                 <img src="{{ URL('image/icoimage/21.png') }}" alt="">
                             </a>
-                            <a href="#">
+                            {{-- <a href="#">
                                 <img src="{{ URL('image/icoimage/23.png') }}" alt="">
-                            </a>
-                            <a href="#">
+                            </a> --}}
+                            <a target="_blank" href="https://www.instagram.com/ekodroplogistics/">
                                 <img src="{{ URL('image/icoimage/25.png') }}" alt="">
                             </a>
-                            <a href="#">
+                            {{-- <a href="#">
                                 <img src="{{ URL('image/icoimage/24.png') }}" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="{{ URL('image/icoimage/26.png') }}" alt="">
+                            </a> --}}
+                            <a target="_blank" href="https://wa.me/message/OS5M6J6CJY46L1">
+                                <img src="{{ URL('image/icoimage/24.png') }}" alt="">
                             </a>
 
                         </div>

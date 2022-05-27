@@ -97,13 +97,13 @@ $(function() {
     let icon2 = $('#img2')
 
     var icons = {
-        header: "ui-icon-circle-arrow-e",
-        activeHeader: "ui-icon-circle-arrow-s"
+        header: "ui-icon ui-icon-plus-1-n",
+        activeHeader: "ui-icon ui-icon-plus-1-e"
             // header: icon1,
             // activeHeader: icon2
     };
     $("#accordion").accordion({
-        icons: false
+        icons: icons
     });
     $("#toggle").button().on("click", function() {
         if ($("#accordion").accordion("option", "icons")) {
@@ -113,3 +113,56 @@ $(function() {
         }
     })
 });
+
+
+
+
+
+$(function() {
+    $('#contact').on('submit', function(e) {
+        e.preventDefault()
+
+        let btn = $('#submit');
+        let form = $(this).serialize();
+        url = $('#contact').attr('action')
+
+        $('#submit').attr('value', 'Sending....')
+        $.ajax({
+                url: url,
+                method: 'POST',
+                // 'X-CSRF-TOKEN': jQuery('meta[name="csrf-token"]').attr('content'),
+                data: form,
+                success: function(result) {
+                    if (result.success) {
+                        $('#subbtn').fadeOut()
+                        $('#alert').html(result.success);
+                        $('#alert').fadeIn('slow');
+
+                    }
+                    $("input[type=text], input[type=password], input[type=email], input[type=number],textarea, select").val("");
+                    if (result.failed) {
+                        $('#msg1').html(result.failed.first_name)
+                        $('#msg2').html(result.failed.email)
+                        $('#msg3').html(result.failed.message)
+                        btn.attr('value', 'Send Message')
+                            // $('#danger').html(result.failed);
+                            // $('#danger').fadeIn('slow');
+                    }
+                    setInterval(() => {
+                        $('#alert').fadeOut('slow');
+                        $('#msg1').fadeOut('slow');
+                        $('#msg2').fadeOut('slow');
+                        $('#msg3').fadeOut('slow');
+                    }, 9000);
+                    $("input[type=text], input[type=password], input[type=email], input[type=number],textarea, select").val("");
+                },
+                error: function(error) {
+                    $('#danger').html(error);
+                    $('#danger').fadeIn('slow');
+                }
+            })
+            // btn.attr('value', 'Send Message')
+    })
+
+
+})

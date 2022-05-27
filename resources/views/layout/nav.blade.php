@@ -6,7 +6,7 @@
                 <img style="width: 120px;" class="w-auto" src="{{ URL('image/logo.png') }}" alt="">
             </a>
 
-            <div class="hidden md:flex flex-1 w-full  justify-between items-center">
+            <div class="hidden md:flex w-2/6  justify-between items-center">
                 <div class="a1 h-full w-auto leading-3">
                     <a href="/" class="{{ request()->is('/') ? 'active' : '' }} font-semibold text-sm text-eko-blue hover:text-eko-yellow">Home</a>
                 </div>
@@ -14,7 +14,7 @@
                     <a href="{{ route('about') }}" class="{{ request()->is('about') ? 'active' : '' }} font-semibold text-sm text-eko-blue hover:text-eko-yellow">About Us</a>
                 </div>
                 <div class="a1 h-full w-auto leading-3">
-                    <a href="{{ route('service') }}" class="{{ request()->is('service') ? 'active' : '' }} font-semibold text-sm text-eko-blue hover:text-eko-yellow">Services</a>
+                    <a href="/#service" class="{{ request()->is('/#service') ? 'active' : '' }} font-semibold text-sm text-eko-blue hover:text-eko-yellow">Services</a>
                 </div>
                 <div class="a1 h-full w-auto leading-3">
                     <a href="{{ route('contact') }}" class="{{ request()->is('contact') ? 'active' : '' }}  font-semibold text-sm text-eko-blue hover:text-eko-yellow">Contact</a>
@@ -47,7 +47,7 @@
                 <img style="width: 120px;" class="w-2/5" src="{{ URL('image/logo.png') }}" alt="">
             </a>
 
-            <div class=" hidden lg:flex flex-1 w-full  justify-between items-center">
+            <div class=" hidden lg:flex w-2/6 justify-between items-center">
                 <div class="a1 h-full w-auto leading-3">
                     <a href="/" class="{{ request()->is('/') ? 'active' : '' }}  font-semibold text-sm text-eko-blue hover:text-eko-yellow">Home</a>
                 </div>
@@ -55,7 +55,7 @@
                     <a href="{{ route('about') }}" class="{{ request()->is('about') ? 'active' : '' }} font-semibold text-sm text-eko-blue hover:text-eko-yellow">About Us</a>
                 </div>
                 <div class="a1 h-full w-auto leading-3">
-                    <a href="{{ route('service') }}" class="{{ request()->is('service') ? 'active' : '' }} font-semibold text-sm text-eko-blue hover:text-eko-yellow">Services</a>
+                    <a href="/#service" class="{{ request()->is('#service') ? 'active' : '' }} font-semibold text-sm text-eko-blue hover:text-eko-yellow">Services</a>
                 </div>
                 <div class="a1 h-full w-auto leading-3">
                     <a href="{{ route('contact') }}" class="{{ request()->is('contact') ? 'active' : '' }}  font-semibold text-sm text-eko-blue hover:text-eko-yellow">Contact</a>
@@ -100,7 +100,7 @@
                     <a href="{{ route('about') }}" class="{{ request()->is('about') ? 'active2' : '' }} font-semibold text-sm text-eko-blue hover:text-eko-yellow">About Us</a>
                 </div>
                 <div class="py-2 my-6 a1 h-full w-auto leading-3">
-                    <a href="{{ route('service') }}" class="{{ request()->is('service') ? 'active2' : '' }} font-semibold text-sm text-eko-blue hover:text-eko-yellow">Services</a>
+                    <a href="/#service" class="{{ request()->is('#service') ? 'active2' : '' }} font-semibold text-sm text-eko-blue hover:text-eko-yellow">Services</a>
                 </div>
                 <div class="py-2 my-6 a1 h-full w-auto leading-3">
                     <a href="{{ route('contact') }}" class="{{ request()->is('contact') ? 'active2' : '' }}  font-semibold text-sm text-eko-blue hover:text-eko-yellow">Contact</a>

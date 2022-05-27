@@ -29,7 +29,7 @@
         </div>
     </main>
 
-    <main class="w-full px-4 sm:px-20 ">
+    <main class="w-full px-4 sm:px-20 " id="service">
         <div style="margin-top: 10px;margin-bottom: 20px" class="mt-28  sm:flex items-center justify-between gap-8 w-full h-auto mx-auto">
             <div class="w-full flex-1 py-2 text-center wow animate__animated animate__fadeInUp">
                 <h1 class="font-bold text-eko-blue text-2xl md:text-4xl mb-2">Topnotch logistics services</h1>
@@ -40,7 +40,7 @@
         <div class="w-full mt-4 sm:flex gap-10 ">
             <div  style="filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.04)); transition:.5s" data-wow-delay="1s" class="wow animate__animated animate__fadeInUp mb-8 hover:bg-eko-yellow hover:text-black transition-transform duration-200 hover:transition-transform hover:duration- cursor-pointer flex-1 p-10 bg-white text-center md:text-left hover:shadow-2xl-lg">
                 <div class="w-auto flex">
-                    <img class="mx-auto md:mx-0" style="height: 100px" src="{{ URL('image/icoimage/2.png') }}" alt="">
+                    <img class="mx-auto md:mx-0" src="{{ URL('image/icoimage/2.png') }}" alt="">
                 </div>
                 <div class="w-full font-black text-xl text-eko-blue my-8">
                     <h3>24 hour pick up & delivery</h3>
@@ -51,7 +51,7 @@
             </div>
             <div style="filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.04)); transition:.5s" data-wow-delay="1.5s" class="wow animate__animated animate__fadeInUp mb-8 hover:bg-eko-yellow hover:text-black transition-transform duration-200 hover:transition-transform hover:duration- cursor-pointer flex-1 p-10 bg-white text-center md:text-left  hover:shadow-2xl-lg">
                 <div class="w-auto flex">
-                    <img class="mx-auto md:mx-0" style="height: 100px" src="{{ URL('image/icoimage/1.png') }}" alt="">
+                    <img class="mx-auto md:mx-0" src="{{ URL('image/icoimage/1.png') }}" alt="">
                 </div>
                 <div class="w-full font-black text-xl text-eko-blue my-8">
                     <h3>International Couriers</h3>
@@ -62,7 +62,7 @@
             </div>
             <div style="filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.04)); transition:.5s" data-wow-delay="2s" class="wow animate__animated animate__fadeInUp mb-8 hover:bg-eko-yellow hover:text-black transition-transform duration-200 hover:transition-transform hover:duration- cursor-pointer flex-1 p-10 bg-white text-center md:text-left  hover:shadow-2xl-lg">
                 <div class="w-auto flex">
-                    <img class="mx-auto md:mx-0" style="height: 100px" src="{{ URL('image/icoimage/3.png') }}" alt="">
+                    <img class="mx-auto md:mx-0" src="{{ URL('image/icoimage/3.png') }}" alt="">
                 </div>
                 <div class="w-full font-black text-xl text-eko-blue my-8">
                     <h3>Errand Services</h3>
@@ -77,7 +77,7 @@
         <div class="w-full sm:flex gap-10 mt-20">
             <div style="filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.04)); transition:.5s" data-wow-delay="2.5s" class="wow animate__animated animate__fadeInUp mb-8 hover:bg-eko-yellow text-center  hover:text-black transition-transform duration-200 hover:transition-transform hover:duration- cursor-pointer  flex-1 p-10 bg-white md:text-left  hover:shadow-2xl-lg">
                 <div class="w-auto flex">
-                    <img class="mx-auto md:mx-0" style="height: 100px" src="{{ URL('image/icoimage/4.png') }}" alt="">
+                    <img class="mx-auto md:mx-0" src="{{ URL('image/icoimage/4.png') }}" alt="">
                 </div>
                 <div class="w-full font-black text-xl text-eko-blue my-8">
                     <h3>Interstate Couriers</h3>
@@ -88,7 +88,7 @@
             </div>
             <div style="filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.04)); transition:.5s" data-wow-delay="1.5s" class="wow animate__animated animate__fadeInUp mb-8 hover:bg-eko-yellow  text-center hover:text-black transition-transform duration-200 hover:transition-transform hover:duration- cursor-pointer  flex-1 p-10 bg-white md:text-left  hover:shadow-2xl-lg">
                 <div class="w-auto flex">
-                    <img class="mx-auto md:mx-0" style="height: 100px" src="{{ URL('image/icoimage/15.png') }}" alt="">
+                    <img class="mx-auto md:mx-0" src="{{ URL('image/icoimage/15.png') }}" alt="">
                 </div>
                 <div class="w-full font-black text-xl text-eko-blue my-8">
                     <h3>Haulage </h3>
@@ -99,7 +99,7 @@
             </div>
             <div style="filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.04)); transition:.5s" data-wow-delay="1s" class="wow animate__animated animate__fadeInUp  mb-8 hover:bg-eko-yellow  text-center hover:text-black transition-transform duration-200 hover:transition-transform hover:duration- cursor-pointer flex-1 p-10 bg-white md:text-left  hover:shadow-2xl-lg">
                 <div class="w-auto flex">
-                    <img class="mx-auto md:mx-0" style="height: 100px" src="{{ URL('image/icoimage/6.png') }}" alt="">
+                    <img class="mx-auto md:mx-0" src="{{ URL('image/icoimage/6.png') }}" alt="">
                 </div>
                 <div class="w-full font-black text-xl text-eko-blue my-8">
                     <h3>Packaging & Storage</h3>
@@ -127,18 +127,21 @@
                     <div class="w-auto flex wow animate__animated animate__fadeInUp " data-wow-delay="1.5s">
                         <img src="{{ URL('image/icoimage/12.png') }}" alt="">
                     </div>
-               </div>
-               <div class=" flex items-center gap-8 md:gap-20 justify-center">
                     <div class="w-auto flex wow animate__animated animate__fadeInUp " data-wow-delay="2s">
                         <img src="{{ URL('image/icoimage/9.png') }}" alt="">
                     </div>
+               </div>
+               <div class="w-auto flex wow animate__animated animate__fadeInUp " data-wow-delay="2s">
+                <img src="{{ URL('image/icoimage/9.png') }}" alt="">
+            </div> {{-- <div class=" flex items-center gap-8 md:gap-20 justify-center">
+                    
                     <div class="w-auto flex wow animate__animated animate__fadeInUp " data-wow-delay="2s">
                         <img src="{{ URL('image/icoimage/27.png') }}" alt="">
                     </div>
                     <div class="w-auto flex wow animate__animated animate__fadeInUp " data-wow-delay="2s">
                         <img src="{{ URL('image/icoimage/28.png') }}" alt="">
                     </div>
-               </div>
+               </div> --}}
             </div>
         </div>
     </main>
@@ -315,8 +318,12 @@
                                     </div>
                                     <h1 class="text-eko-blue my-6 font-bold">Damilola Olaribigbe</h1>
                                     <p class="text-sm text-eko-blue text-left mt-2">
-                                        Ekodrop Logistics is simply the BEST. I have had issues searching for a dispatch company I could rely on as a business owner and I must say Ekodrop Logistics has saved me the stress of looking further. They are super efficient, always on time and their customer service is topnotch.
-                                        I strongly recommend them to everyone. You will be glad you did.
+                                        Ekodrop Logistics is simply the BEST.
+                                        I have had issues searching for a dispatch company I could rely on as a business owner and I
+                                        must say Ekodrop Logistics has saved me the stress of looking further.
+                                        They are super efficient, always on time and their customer service is topnotch.
+                                        I strongly recommend them to everyone. You will be glad you did
+
                                     </p>
                                 </div>
                             </div>
@@ -327,9 +334,11 @@
                                     <div class="w-full text-center flex">
                                         <img class="mx-auto" src="{{ URL('image/icoimage/19.png') }}" alt="">
                                     </div>
-                                    <h1 class="text-eko-blue my-6 font-bold">Omonike adetimehin-Omlan Global Service</h1>
+                                    <h1 class="text-eko-blue my-6 font-bold">Omonike Adetimehin-Omlan Global Service</h1>
                                     <p class="text-sm text-eko-blue text-left mt-2">
-                                        I am so happy to use Ekodrop logistics for my deliveries. As a virtual assistant I have a lot of errands assigned to me and Ekodrop just makes my work more efficient. Thank you for helping me build good business relations with my clients
+                                        I am so happy to use Ekodrop logistics for my deliveries. As a virtual assistant I have a lot of
+                                        errands assigned to me and Ekodrop just makes my work more efficient. Thank you for helping
+                                        me build good business relations with my clients
                                     </p>
                                 </div>
                             </div>
@@ -342,7 +351,9 @@
                                     </div>
                                     <h1 class="text-eko-blue my-6 font-bold">Yetunde</h1>
                                     <p class="text-sm text-eko-blue text-left mt-2">
-                                        Thank you for going above and beyond to ensure I get my package on time. It speaks volumes about you and your business. I will definitely be saving your contact and recommending your services.
+                                        Thank you for going above and beyond to ensure I get my package on time. It speaks volumes
+                                        about you and your business. I will definitely be saving your contact and recommending your
+                                        services.
                                     </p>
                                 </div>
                             </div>
@@ -353,40 +364,16 @@
                                     <div class="w-full text-center flex">
                                         <img class="mx-auto" src="{{ URL('image/icoimage/19.png') }}" alt="">
                                     </div>
-                                    <h1 class="text-eko-blue my-6 font-bold">Damilola Olaribigbe</h1>
+                                    <h1 class="text-eko-blue my-6 font-bold">Ose</h1>
                                     <p class="text-sm text-eko-blue text-left mt-2">
-                                        Ekodrop Logistics is simply the BEST. I have had issues searching for a dispatch company I could rely on as a business owner and I must say Ekodrop Logistics has saved me the stress of looking further. They are super efficient, always on time and their customer service is topnotch.
-                                        I strongly recommend them to everyone. You will be glad you did.
+                                        Just a quick note to acknowledge the outstanding service supplied by ekodrop Logistics and
+                                        their follow up text inquiring about customer satisfaction and improvement
+                                        It is a pleasure to work with them.                                        
                                     </p>
                                 </div>
                             </div>
                         </li>
-                        <li style="max-width: 500px;" class="splide__slide">
-                            <div style="height:318px;width:530px;margin:100px auto;padding:0 30px">
-                                <div id="slidebx" style="width:100%;height:100%" class="w-1/2 mx-auto p-8 mb-4 flex-1 text-center-lg bg-gray-100">
-                                    <div class="w-full text-center flex">
-                                        <img class="mx-auto" src="{{ URL('image/icoimage/19.png') }}" alt="">
-                                    </div>
-                                    <h1 class="text-eko-blue my-6 font-bold">Omonike adetimehin-Omlan Global Service</h1>
-                                    <p class="text-sm text-eko-blue text-left mt-2">
-                                        I am so happy to use Ekodrop logistics for my deliveries. As a virtual assistant I have a lot of errands assigned to me and Ekodrop just makes my work more efficient. Thank you for helping me build good business relations with my clients
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li style="max-width: 500px;" class="splide__slide">
-                            <div style="height:318px;width:530px;margin:100px auto;padding:0 30px">
-                                <div id="slidebx" style="width:100%;height:100%" class="w-1/2 mx-auto p-8 mb-4 flex-1 text-center-lg bg-gray-100">
-                                    <div class="w-full text-center flex">
-                                        <img class="mx-auto" src="{{ URL('image/icoimage/19.png') }}" alt="">
-                                    </div>
-                                    <h1 class="text-eko-blue my-6 font-bold">Yetunde</h1>
-                                    <p class="text-sm text-eko-blue text-left mt-2">
-                                        Thank you for going above and beyond to ensure I get my package on time. It speaks volumes about you and your business. I will definitely be saving your contact and recommending your services.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -406,14 +393,14 @@
                     <div class="w-full flex items-center justify-between cursor-pointer gap-8">
                         <h1 class="text-eko-blue my-1 font-bold text-sm ">What are your delivery rates ?</h1>
                         <div  class="flex  items-center justify-center">
-                            {{-- <img id="img2" src="{{ URL('image/icoimage/navigation/Minus.png') }}" alt=""> --}}
-                            <span class="ui-icon ui-icon-plus-1-n"></span>
+                            <img id="img2" src="{{ URL('image/icoimage/navigation/Minus.png') }}" alt="">
+                           
                         </div>
                     </div>
                 </div>
                 <div  class="drop2 p-3 sm:p-6 w-full bg-gray-100 ">
                     <p class="text-sm text-eko-blue text-left mt-2">
-                        The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
+                       The pickup/drop off location and the weight of goods determines the rate at which you will be charged
                     </p>
                 </div>
                 <div onclick="OpenAcc(1)" class="drop1  p-3 sm:p-6 w-full mt-3 bg-gray-100 wow animate__animated animate__fadeInUp">
@@ -426,21 +413,7 @@
                 </div>
                 <div class="drop2 p-3 sm:p-6 w-full bg-gray-100 ">
                     <p class="text-sm text-eko-blue text-left mt-2">
-                        The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
-                    </p>
-                </div>
-                <div onclick="OpenAcc(2)" class="drop1 p-3 sm:p-6 w-full mt-3 bg-gray-100 wow animate__animated animate__fadeInUp">
-                    <div class="w-full flex items-center justify-between cursor-pointer gap-8">
-                        <h1 class="text-eko-blue my-1 font-bold text-sm ">Do you deliver outside lagos?</h1>
-                        <div class="flex items-end justify-end">
-                            <img id="img2" src="{{ URL('image/icoimage/navigation/Plus.png') }}" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="drop2 p-3 sm:p-6 w-full bg-gray-100 ">
-
-                    <p class="text-sm text-eko-blue text-left mt-2">
-                        The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
+                        Yes we do as well as outside Nigeria
                     </p>
                 </div>
                 <div onclick="OpenAcc(3)" class="drop1 p-3 sm:p-6 w-full mt-3 bg-gray-100 wow animate__animated animate__fadeInUp">
@@ -453,7 +426,7 @@
                 </div>
                 <div class="drop2 p-3 sm:p-6 w-full bg-gray-100 ">
                     <p class="text-sm text-eko-blue text-left mt-2">
-                        The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
+                        It takes between 1hr to 5hrs after pickup except you want an express delivery
                     </p>
                 </div>
                 <div onclick="OpenAcc(4)" class="drop1 p-3 sm:p-6 w-full mt-3 bg-gray-100 wow animate__animated animate__fadeInUp">
@@ -466,7 +439,7 @@
                 </div>
                 <div class="drop2 p-3 sm:p-6 w-full bg-gray-100 ">
                     <p class="text-sm text-eko-blue text-left mt-2">
-                        The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
+                        Yes, with the Ekodrop App.
                     </p>
                 </div>
                 <div onclick="OpenAcc(5)" class="drop1 p-3 sm:p-6 w-full mt-3 bg-gray-100 wow animate__animated animate__fadeInUp">
@@ -479,7 +452,7 @@
                 </div>
                 <div class="drop2 p-3 sm:p-6 w-full bg-gray-100 ">
                     <p class="text-sm text-eko-blue text-left mt-2">
-                        The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
+                        Yes we do but it differs from the normal same day delivery
                     </p>
                 </div>
                 <div onclick="OpenAcc(6)" class="drop1 p-3 sm:p-6 w-full mt-3 bg-gray-100 wow animate__animated animate__fadeInUp">
@@ -493,21 +466,7 @@
                 <div class="drop2 p-3 sm:p-6 w-full bg-gray-100 ">
 
                     <p class="text-sm text-eko-blue text-left mt-2">
-                        The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
-                    </p>
-                </div>
-                <div onclick="OpenAcc(7)" class="drop1 p-3 sm:p-6 w-full mt-3 bg-gray-100 wow animate__animated animate__fadeInUp">
-                    <div class="w-full flex items-center justify-between cursor-pointer gap-8">
-                        <h1 class="text-eko-blue my-1 font-bold text-sm ">Are there rewards for  customer referrals?</h1>
-                        <div class=" flex items-end justify-end">
-                              <img id="img2" src="{{ URL('image/icoimage/navigation/Plus.png') }}" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="drop2 p-3 sm:p-6 w-full bg-gray-100 ">
-
-                    <p class="text-sm text-eko-blue text-left mt-2">
-                        The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
+                        Yes there is
                     </p>
                 </div>
                 <div onclick="OpenAcc(8)" class="drop1 p-3 sm:p-6 w-full mt-3 bg-gray-100 wow animate__animated animate__fadeInUp">
@@ -520,7 +479,7 @@
                 </div>
                 <div class="drop2 p-3 sm:p-6 w-full bg-gray-100 ">
                     <p class="text-sm text-eko-blue text-left mt-2">
-                        The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
+                        Yes, we accept cash on delivery.
                     </p>
                 </div>
                 <div onclick="OpenAcc(9)" class="drop1 p-3 sm:p-6 w-full mt-3 bg-gray-100 wow animate__animated animate__fadeInUp">
@@ -534,7 +493,7 @@
                 <div class="drop2 p-3 sm:p-6 w-full bg-gray-100 ">
 
                     <p class="text-sm text-eko-blue text-left mt-2">
-                        The pickup/drop off location and the weight of goods determines the rate at which you will be charged.
+                        Yes, it is possible but the delivery charge may differ from usual due to the process it involves.
                     </p>
                 </div>
             </div>
