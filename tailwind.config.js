@@ -34,14 +34,6 @@ module.exports = {
                 '700': '#24262d',
                 '800': '#1a1c23',
                 '900': '#121317',
-                // default values from Tailwind UI palette
-                // '300': '#d2d6dc',
-                // '400': '#9fa6b2',
-                // '500': '#6b7280',
-                // '600': '#4b5563',
-                // '700': '#374151',
-                // '800': '#252f3f',
-                // '900': '#161e2e',
             },
             'cool-gray': {
                 '50': '#fbfdfe',
@@ -165,6 +157,7 @@ module.exports = {
             },
             'eko-yellow': '#FFCC29',
             'eko-blue': '#21334F',
+            'eko-green': '#38B000',
         },
         extend: {
             maxHeight: {
@@ -186,7 +179,12 @@ module.exports = {
                 'phone-image': "url('/image/icoimage/16.png')",
                 'service-image': "url('/image/serviceimage/1.png')",
                 'service-image2': "url('/image/serviceimage/6.png')",
+                'login-image': "url('/image/auth/1.png')",
+                'register-image': "url('/image/auth/3.png')",
             },
+            boxShadow: {
+                'eko-shadow': 'rgb(91 60 25 / 20%) 0px 30px 60px, rgb(0 0 0 / 20%) 0px 0px 0px 0.5px inset',
+            }
 
         },
     },
@@ -215,7 +213,7 @@ module.exports = {
         placeholderColor: ['focus', 'dark', 'dark:focus'],
         borderColor: ['focus', 'hover', 'dark', 'dark:focus', 'dark:hover'],
         divideColor: ['dark'],
-        boxShadow: ['focus', 'dark:focus'],
+        // boxShadow: ['focus', 'dark:focus'],
     },
     plugins: [
         // require('@tailwindcss/ui'),

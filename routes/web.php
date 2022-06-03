@@ -1,9 +1,16 @@
 <?php
 
-use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CodeControllerController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CustomerRegisterationController;
+use App\Http\Controllers\PhoneLoginController;
+use App\Http\Controllers\ServiceControllerController;
+use App\Http\Controllers\VendorCustomerController;
+
+// use App\Http\Controllers\Auth\PhoneLoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,8 +27,24 @@ Route::get('/', [HomeController::class, 'home']);
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::post('/contact', [ContactController::class, 'sendcontact']);
-Route::get('/service', [HomeController::class, 'service'])->name('service');
-Auth::routes();
+
+// PHONE LOGIN ROUTE
+Route::get('/phonelogin', [PhoneLoginController::class, 'index'])->name('phonelogin');
+Route::get('/phonelogin', [PhoneLoginController::class, 'loginWithPhone']);
+
+// CUSOMER ROUTE
+Route::get('/customregister', [VendorCustomerController::class, 'customIndex'])->name('customregister');
+Route::post('/customregister', [VendorCustomerController::class, 'customCreate']);
+
+// VENDOR ROUTE
+Route::get('/vendregister', [VendorCustomerController::class, 'vendIndex'])->name('vendregister');
+Route::post('/vendregister', [VendorCustomerController::class, 'vendCreate']);
+
+Route::get('/verifyOTP', [CodeControllerController::class, 'index'])->name('verifyOTP');
+Route::get('/onetimeservice', [ServiceControllerController::class, 'index'])->name('verifyOTP');
+
+
+Auth::routes(['verify'=> true]);
 
 // Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

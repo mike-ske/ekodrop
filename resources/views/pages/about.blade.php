@@ -1,11 +1,11 @@
 @extends('master.app')
 
 @section('contents')
-    <main class="w-full flex px-4 sm:px-20">
+    <main class="w-full flex px-4 lg:px-20">
         <div style="margin-top: 40px;" class="md:mt-28 md:mb-10 mt-0 sm:flex items-center justify-between gap-8 w-full h-auto mx-auto">
             <div class="w-full flex-1 md:mt-10 py-4 wow animate__animated animate__fadeInLeft">
                 <div class="w-full">
-                    <h1 class="text-2xl md:text-5xl text-eko-blue font-black">
+                    <h1 class="text-2xl md:text-3xl lg:text-5xl text-eko-blue font-black">
                         Your plug for quick and fast end-to
                         -end same-day delivery service 
                     </h1>
@@ -24,7 +24,7 @@
         </div>
     </main>
 
-    <main class="w-full flex px-4 sm:px-20 bg-eko-blue" >
+    <main class="w-full flex px-4 lg:px-20 bg-eko-blue" >
         <div class="mt-28 md:flex items-center justify-between gap-8 w-full h-auto mx-auto">
             <div class="w-full flex-1 mt-8 py-4">
                 <div class="w-full wow animate__animated animate__fadeInUp">
@@ -53,7 +53,7 @@
         </div>
     </main>
 
-    <main class="w-full flex px-4 sm:px-20" style="background: rgba(255, 204, 41, 0.1);">
+    <main class="w-full flex px-4 lg:px-20" style="background: rgba(255, 204, 41, 0.1);">
         <div class="mt-28  sm:flex items-center justify-center gap-8 w-full h-auto mx-auto">
             <div class="w-full flex-1 py-4 wow animate__animated animate__fadeInLeft">
                 <div class="mx-auto w-full md:w-10/12">
@@ -92,7 +92,7 @@
         </div>
     </main>
 
-    <main class="w-full md:flex px-4 sm:px-20">
+    <main class="w-full md:flex px-4 lg:px-20">
         <div class="mt-28  md:flex items-center justify-between gap-8 w-full h-auto mx-auto">
             <div class="w-full flex-1 py-4 wow animate__animated animate__fadeInLeft">
                <div class="w-full my-8">
@@ -110,7 +110,7 @@
     </main>
 
     
-    <main class="w-full px-4 sm:px-20 ">
+    <main class="w-full px-4 lg:px-20 ">
         <div class="  w-full h-auto mx-auto">
             <div class="flex items-center md:items-start w-full flex-1 p-8 text-center md:text-left wow animate__animated animate__fadeInUp">
                 <h1 class="text-4xl md:text-4xl font-bold md:font-bold text-eko-blue"  > 

@@ -8,13 +8,20 @@
 {{-- SLIDER COUROSEL --}}
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.2/dist/js/splide.min.js"></script>
 
-{{-- <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script> --}}
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+{{-- jquery --}}
+<script src="{{ asset('js/app.js') }}"></script>
+
+{{-- SWAL COMPONENT --}}
+{{-- <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script> --}}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.17/dist/sweetalert2.all.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+{{-- <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script> --}}
+<script src="{{ URL('mainjs/otp.js') }}"></script>
+<script src="{{ URL('mainjs/script.js') }}"></script>
+<script src="{{ URL('mainjs/registeration.js') }}"></script>
 <script src="{{ URL('mainjs/main.js') }}"></script>
-<script src="{{ asset('mainjs/app.js')  }}" ></script>
-<script src="{{ asset('mainjs/delete.js')  }}" ></script>
-<script src="{{ asset('mainjs/search.js')  }}" ></script>
 
 
 </body>

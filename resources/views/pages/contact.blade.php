@@ -1,9 +1,9 @@
 @extends('master.app')
 
 @section('contents')
-    <main class="w-full flex px-4 sm:px-20">
-        <div class="sm:flex items-start justify-between gap-20 w-full h-auto mx-auto">
-            <div class="w-full flex-1 mt-20 mb-20 py-6 sm:py-20 border border-gray-300 px-6 sm:px-20">
+    <main class="w-full flex px-4 lg:px-20">
+        <div class="sm:flex items-start justify-between gap-10 lg:gap-20 w-full h-auto mx-auto">
+            <div class="w-full flex-1 mt-20 mb-20 py-6 sm:py-20 border border-gray-300 px-6 lg:px-20">
                 <div class="w-full wow animate__animated animate__fadeInUp">
                     <h1 class="text-3xl text-eko-blue font-semibold">
                         Get in touch
@@ -50,7 +50,7 @@
                         <div id="subbtn" class=" wow animate__animated animate__fadeInUp text-center w-full cursor-pointer text-gray-800 text-sm py-2 px-4 bg-yellow-300 hover:bg-transparent border border-yellow-300">
                             <input id="submit" type="submit" value="Send Message" style="background: none" class="bg-none w-full text-lg text-center cursor-pointer font-bold" name="submit">
                         </div>
-                        <div id="alert" class="hidden justify-center items-center font-normal w-full bg-green-100 border border-green-400 rounded-full text-green-900 text-left py-2 px-4 mt-3"></div>
+                        <div id="alert" class="hidden justify-center items-center font-normal w-full bg-green-100 border border-green-400 rounded-lg text-green-900 text-left py-2 px-4 mt-3"></div>
                         <div id="danger" class="hidden font-bold w-full bg-red-100 border border-red-400 rounded-full text-red-900 text-left py-2 px-4 mt-3"></div>
                     </form>
                 </div>
